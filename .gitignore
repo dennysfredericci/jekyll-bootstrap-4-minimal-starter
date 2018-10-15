@@ -4,4 +4,6 @@ _site/
 .jekyll-metadata
 
 
+.firebase/
+
 .DS_Store
