@@ -21,4 +21,4 @@ jobs:
 
       - run:
           name: Deploy
-          command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive
+          command: firebase use --add jekyll-minimal-starter && firebase deploy --token=$FIREBASE_TOKEN --non-interactive
